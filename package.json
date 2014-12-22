@@ -1,0 +1,44 @@
+{
+  "name": "grunt-html2jsx",
+  "version": "0.0.0",
+  "description": "Converts HTML to JSX for use with React.",
+   "keywords": [
+    "gruntplugin",
+    "html2jsx",
+    "jsx",
+    "transform",
+    "transformer",
+    "template",
+    "templates",
+    "view",
+    "views",
+    "precompile",
+    "compile"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "hemanth",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "files": [
+    "tasks"
+  ],
+  "repository": "hemanth/grunt-html2jsx",
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "each-async": "^1.0.0",
+    "htmltojsx": "^0.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-simple-mocha": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
