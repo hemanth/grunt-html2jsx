@@ -31,15 +31,33 @@ grunt.initConfig({
 grunt.registerTask('default', ['htmltojsx']);
 ```
 
+__Options:__
 
-## Options
+```js
+{
+  createClass: true,
+  outputClassName: 'AwesomeComponent'
+}
+```
 
-### includeRuntime
+__Sample:__
 
-Type: `boolean`  
-Default: `false`
+```html
+<p> Hello </p>
+```
 
-> A small runtime library (less than 1KB compressed) is required to provide the wrapGenerator function. You can install it either as a CommonJS module or as a standalone .js file, whichever you prefer.
+Get converted to:
+
+```js
+var NewComponent = React.createClass({
+  render: function() {
+    return (
+
+      <p> Hello </p>
+    );
+  }
+});
+```
 
 
 ## License
