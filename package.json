@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "each-async": "^1.0.0",
-    "htmltojsx": "^0.2.0"
+    "htmltojsx": "^0.2.5"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
