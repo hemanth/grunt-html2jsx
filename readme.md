@@ -1,4 +1,4 @@
-# grunt-htmltojsx [![Build Status](https://travis-ci.org/hemanth/grunt-htmltojsx.svg?branch=master)](https://travis-ci.org/hemanth/grunt-htmltojsx)
+# grunt-html2jsx [![Build Status](https://travis-ci.org/hemanth/grunt-html2jsx.svg?branch=master)](https://travis-ci.org/hemanth/grunt-html2jsx)
 
 > Converts HTML to JSX for use with React.
 
