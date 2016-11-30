@@ -1,6 +1,6 @@
 {
   "name": "grunt-html2jsx",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Converts HTML to JSX for use with React.",
   "keywords": [
     "gruntplugin",
